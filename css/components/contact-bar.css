@@ -6,10 +6,14 @@
     position: fixed;
     bottom: 50px;
     right: 0px;
-    background-color: gainsboro;
-    padding: 10px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    margin-right: 10px;
+}
+
+.contact-bar__title {
+    writing-mode: vertical-lr;
+    letter-spacing: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .contact-bar__link {
@@ -21,19 +25,19 @@
 }
 
 .contact-bar__link img {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     margin: 10px 0px;
 }
 
 .contact-bar__link:nth-child(2) img {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     
 }
 
 .contact-bar__link:last-child img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     margin-top: 15px;
 }
