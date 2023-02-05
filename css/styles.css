@@ -1,8 +1,14 @@
 @import "reset.css";
+@import "variable.css";
+
 @import "components/nav-bar.css";
 @import "components/contact-bar.css";
+@import "components/main-screen.css";
+
 @import "screens/index.css";
-@import "variable.css";
+@import "screens/about.css";
+@import "screens/skills.css";
+@import "screens/projects.css";
 
 @font-face {
     src: url("../font/LeferiPointWhiteOblique.ttf");
@@ -15,6 +21,3 @@ body {
     color: var(--text);
 }
 
-.main-screen {
-
-}

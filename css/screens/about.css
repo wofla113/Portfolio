@@ -1,0 +1,65 @@
+.about-main {
+    display: flex;
+    justify-content: center;
+}
+
+.about-main > div {
+    width: 400px;
+}
+
+.profile__name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+.profile__name h1 {
+    font-size: 30px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.profile__name h4 {
+    font-weight: 600;
+}
+
+.profile p {
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.history > div {
+    margin-top: 60px;
+}
+
+.history__education h2, .history__certificate h2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.history__contents {
+    margin-left: 10px;
+    line-height: 18px;
+    border-bottom: 1px solid var(--text);
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-top: 36px;
+}
+
+.history__contents h5 {
+    font-weight: 600;
+}
+
+.history__contents h6 {
+    font-size: 14px;
+}
+
+.history__contents span {
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+
+

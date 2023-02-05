@@ -3,7 +3,6 @@
     font-family: "main-font";
 }
 
-
 .header {
     display: flex;
     height: 100vh;
@@ -11,19 +10,16 @@
     margin-left: 20px;
 }
 
-.header__menu-btn {
+.header img {
     position: absolute;
     right: 14px;
     top: 12px;
     cursor: pointer;
-}
-
-.header img {
     width: 40px;
     height: 40px;
 }
 
-.header__menu-btn:hover {
+.header img:hover {
     opacity: 0.5;
 }
 
@@ -37,7 +33,6 @@
     height: 100vh;
     background-color: white;
     padding-top: 60px;
-    /* display: none; */
 }
 
 .header__menu a {
@@ -47,19 +42,16 @@
     cursor: pointer;
     margin: 15px;
     line-height: 60px;
-    font-size: 40px;
-    
+    font-size: 40px;    
 }
 
 .header__menu a:hover {
     font-weight: 600;
 }
 
-
 .header__title {
     display: flex;
-    align-items: baseline;
-    
+    align-items: baseline;    
 }
 
 .header__title h1 {
@@ -77,6 +69,10 @@
     font-size: 30px;
     letter-spacing: 3px;
     line-height: 120%;
+}
+
+.hidden {
+    display: none;
 }
 
 

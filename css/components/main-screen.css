@@ -1,0 +1,12 @@
+@font-face {
+    src: url("../../font/GmarketSansTTFMedium.ttf");
+    font-family: "mainScreen-font";
+}
+
+main {
+    font-family: "mainScreen-font";
+    padding: 160px 30px 60px 30px;
+    margin: auto;
+    width: 900px;
+    border: 1px solid gray;
+}
