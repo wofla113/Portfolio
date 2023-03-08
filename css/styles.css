@@ -1,7 +1,7 @@
 @import "reset.css";
 @import "variable.css";
 
-@import "components/nav-bar.css";
+@import "components/header.css";
 @import "components/contact-bar.css";
 @import "components/main-screen.css";
 
@@ -11,13 +11,14 @@
 @import "screens/projects.css";
 
 @font-face {
-    src: url("../font/LeferiPointWhiteOblique.ttf");
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
     font-family: "main-font";
 }
 
 body {
     font-family: "main-font";
-    background-color: var(--background);
     color: var(--text);
+    overflow: scroll;
+    height: 1000px;
 }
 

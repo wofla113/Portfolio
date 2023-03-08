@@ -8,19 +8,21 @@
     <title>김재림 포트폴리오 | 웹 프론트엔드 개발자</title>
 </head>
 <body>
-    <nav class="nav-bar"> 
-        <div class="nav-bar__logo">
-            <a href="index.html">
-                Portfolio<span>2023</span>
-            </a>
-        </div>
-        <div class="nav-bar__list">
-            <a class="nav-bar__btn" href="index.html">Home</a>
-            <a class="nav-bar__btn" href="about.html">About</a>
-            <a class="nav-bar__btn" href="skills.html">Skills</a>
-            <a class="nav-bar__btn" href="projects.html">Projects</a>
-        </div>
-    </nav>
+    <header>
+        <a class="header__logo" href="index.html">
+            <div class="header__title">
+                <h1>PORTFOLIO</h1>
+                <span>2023</span>
+            </div>
+            <span class="header__name">JAERIM</span>
+        </a>
+        <div class="header__nav-bar">
+            <a class="header__nav-btn navBtnClicked" href="index.html">HOME</a>
+            <a class="header__nav-btn" href="about.html">ABOUT</a>
+            <a class="header__nav-btn" href="skills.html">SKILLS</a>
+            <a class="header__nav-btn" href="works.html">WORKS</a>
+        </ul>
+    </header>
 
     <main class="projects-main">
         <div class="project">
@@ -75,6 +77,6 @@
         crossorigin="anonymous">
     </script>
     <script src="js/contact-bar.js"></script>
-    <script src="js/nav-bar.js"></script>
+    
 </body>
 </html>

@@ -1,6 +1,5 @@
 .contactbar-icons {
     position: fixed;
-    background-color: white;
     bottom: 40px;
     right: 0px;
     display: flex;
@@ -34,7 +33,6 @@
 }
 
 .contactbar-btn {
-    background-color: white;
     position: fixed;
     bottom: 40px;
     right: 0px;
