@@ -4,11 +4,12 @@
 @import "components/header.css";
 @import "components/contact-bar.css";
 @import "components/main-screen.css";
+@import "components/side-bar.css";
 
 @import "screens/index.css";
 @import "screens/about.css";
 @import "screens/skills.css";
-@import "screens/projects.css";
+@import "screens/works.css";
 
 @font-face {
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');

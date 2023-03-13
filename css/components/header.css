@@ -1,15 +1,28 @@
+@font-face {
+    font-family: 'name';
+    src: url('../../font/Neatnpretty-wEX9.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'header';
+    src: url('../../font/AlwaysFindDemo-PKaZP.ttf') format('truetype');
+}
+
 a {
     color: var(--text);
 }
+
 header {
-    border: 1px solid gray;
     width: 100vw;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     background-color: white;
     position: fixed;
     top: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
 
 .header__logo {
@@ -22,13 +35,14 @@ header {
 }
 
 .header__title {
+    
     display: flex;
     justify-content: center;
     align-items: baseline;
 }
 
 .header__title h1 {
-    
+    font-family: 'header';
     font-weight: 600;
     font-size: 45px;
     
@@ -40,9 +54,12 @@ header {
 }
 
 .header__name {
-    font-size: 20px;
+    font-size: 30px;
     color: var(--main-color);
-    font-family: 'Yellowtail', cursive;
+    font-family: 'name';
+    position: relative;
+    top: -10px;
+    left: -14px;
 }
 
 .header__nav-bar {
@@ -52,17 +69,21 @@ header {
     align-items: center;
 }
 
+
 .header__nav-btn {
     font-size: 25px;
     cursor: pointer;
     border-radius: 50px;
 }
 
-.header__nav-btn:hover {
-    font-weight: 600;
-}
+
 
 .navBtnClicked {
     color: var(--main-color);
     font-weight: 600;
 }
+
+.header__nav-btn:hover {
+    font-weight: 600;
+}
+

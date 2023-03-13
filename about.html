@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>김재림 포트폴리오 | 웹 프론트엔드 개발자</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+
 </head>
 <body>
     
@@ -15,20 +17,24 @@
                 <h1>PORTFOLIO</h1>
                 <span>2023</span>
             </div>
-            <span class="header__name">JAERIM</span>
+            <span class="header__name">Jaerim</span>
         </a>
-        <div class="header__nav-bar">
-            <a class="header__nav-btn navBtnClicked" href="index.html">HOME</a>
-            <a class="header__nav-btn" href="about.html">ABOUT</a>
-            <a class="header__nav-btn" href="skills.html">SKILLS</a>
-            <a class="header__nav-btn" href="works.html">WORKS</a>
-        </ul>
+        
     </header>
+    
+    <div class="side-bar">
+        <div class="side-bar__menu">
+            <a href="index.html" class="side-bar__btn"><span class="hidden">Home</span><i class="fa-solid fa-house"></i></a>
+            <a href="about.html" class="side-bar__btn"><span class="hidden">ABOUT</span><i class="fa-solid fa-address-card currentPageBtn"></i></a>
+            <a href="skills.html" class="side-bar__btn"><span class="hidden">SKILLS</span><i class="fa-solid fa-user-pen"></i></a>
+            <a href="works.html" class="side-bar__btn"><span class="hidden">WORKS</span><i class="fa-solid fa-person-chalkboard"></i></a>
+        </div>
+    </div>
     <main class="about-main">
         <div class="profile">
             <div class="profile__name">
                 <h1>김재림</h1>
-                <h4>Kim Jaerim</h4>
+                <h4>Jaerim</h4>
             </div>
             <p>
                 1998.11.03<br>
@@ -67,20 +73,19 @@
     </main>
 
     
-    <div class="contactbar-icons">
-        <a href="#" target="_blank" class="contactbar-icons__link">
-            <img src="https://mblogthumb-phinf.pstatic.net/MjAxODAyMDJfOTAg/MDAxNTE3NTAyODA4ODI0.cxuAkiwL2Dw5FUxUYWTwA2GUwlqpLzgRwjHirNDC6Cog.fTa3ixKaDFaD7DM6ctC0BodxnM_1DTdUsp3IzmOwsJkg.PNG.marketstory24/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1_%EB%A1%9C%EA%B3%A0_3.png?type=w800">
-        </a>
-        <a href="https://github.com/wofla113" target="_blank" class="contactbar-icons__link">
-            <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png">
-        </a>
-        <a href="mailto:wofla1103@naver.com" target="_blank" class="contactbar-icons__link" >
-            <img src="https://cdn-icons-png.flaticon.com/512/1250/1250973.png">
-        </a>
-    </div>
-    <div class="contactbar-btn">
-        <span>contact</span>
-        <i class="fa-solid fa-chevron-left"></i>
+    <div class="contact-div">
+        <div class="contact-bar">CONTACT</div>
+        <div class="contact-icons">
+            <a href="#" target="_blank" class="contact-icons__link">
+                <img src="https://mblogthumb-phinf.pstatic.net/MjAxODAyMDJfOTAg/MDAxNTE3NTAyODA4ODI0.cxuAkiwL2Dw5FUxUYWTwA2GUwlqpLzgRwjHirNDC6Cog.fTa3ixKaDFaD7DM6ctC0BodxnM_1DTdUsp3IzmOwsJkg.PNG.marketstory24/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1_%EB%A1%9C%EA%B3%A0_3.png?type=w800">
+            </a>
+            <a href="https://github.com/wofla113" target="_blank" class="contact-icons__link">
+                <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png">
+            </a>
+            <a href="mailto:wofla1103@naver.com" target="_blank" class="contact-icons__link" >
+                <img src="https://cdn-icons-png.flaticon.com/512/1250/1250973.png">
+            </a>
+        </div>
     </div>
     
     <script 
@@ -88,6 +93,6 @@
         crossorigin="anonymous">
     </script>
     <script src="js/contact-bar.js"></script>
-    
+    <script src="js/side-bar.js"></script>
 </body>
 </html>

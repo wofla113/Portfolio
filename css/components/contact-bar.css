@@ -1,62 +1,71 @@
-.contactbar-icons {
+@keyframes contactAni {
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .contact-bar {
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50px;
     position: fixed;
-    bottom: 40px;
+    bottom: 0px;
     right: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 45px;
-    height: 190px;
-}
+    margin-bottom: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .contact-bar:hover {
+    font-weight: 600;
+  }
+  
+  .contact-icons__link {
+    position: fixed;
+    opacity: 0;
+  }
+  
+  .contact-icons__link:nth-child(1) {
+    bottom: 130px;
+    right: 20px;
+    animation-delay: 0.1s;
+  }
+  
+  .contact-icons__link:nth-child(2) {
+    bottom: 110px;
+    right: 110px;
+    animation-delay: 0.2s;
+  }
+  
+  .contact-icons__link:nth-child(3) {
+    bottom: 20px;
+    right: 130px;
+    animation-delay: 0.3s;
+  }
+  
+  .contactHover {
+    animation: contactAni 0.3s 1 ease-in-out forwards;
+  }
 
-.contactbar-icons__link img {
+.contact-icons__link img {
     width: 25px;
     height: 25px;
-    margin: 10px 0px;
 }
 
-.contactbar-icons__link:hover img {
-    opacity: 0.6;
+.contact-icons__link:nth-child(1) img {
+    width: 27px;
+    height: 27px;
 }
 
-.contactbar-icons__link:nth-child(2) img {
+.contact-icons__link:nth-child(3) img {
     width: 22px;
     height: 22px;
-    margin: 10px 0px;
 }
 
-.contactbar-icons__link:last-child img {
-    width: 20px;
-    height: 20px;
-    margin: 10px 0px;
-}
-
-.contactbar-btn {
-    position: fixed;
-    bottom: 40px;
-    right: 0px;
-    writing-mode: vertical-lr;
-    width: 45px;
-    height: 190px;
-    font-size: 20px;
-    letter-spacing: 5px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    transition: transform 0.5s;
-}
-
-.contactbar-btn span {
-    padding: 5px;
-    font-weight: 600;
-}
-
-.contactbar-btn:hover {
-
-}
-
-.open {
-    transform: translateX(-45px);
+.contact-icons__link:hover img{
+    position:relative;
+    right:3px;
 }
