@@ -3,24 +3,63 @@
       opacity: 1;
     }
   }
+
+  @keyframes textAni {
+    0% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(1.3);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+
+  .contact-div {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-weight: 600;
+  }
+
+  .contact-bar span {
+    color: white;
+    font-weight: 600;
+    margin: auto -1px;
+    line-height: 100px;
+    animation: textAni 0.2s linear infinite;
+  }
+
+  .contact-bar span:nth-child(1){
+    animation-delay: 0.1s;
+  }
+  .contact-bar span:nth-child(1){
+    animation-delay: 0.15s;
+  }
+  .contact-bar span:nth-child(1){
+    animation-delay: 0.2s;
+  }
+  .contact-bar span:nth-child(1){
+    animation-delay: 0.25s;
+  }
+  .contact-bar span:nth-child(1){
+    animation-delay: 0.3s;
+  }
+  .contact-bar span:nth-child(1){
+    animation-delay: 0.35s;
+  }
+  .contact-bar span:nth-child(1){
+    animation-delay: 0.4s;
+  }
+
   
   .contact-bar {
     width: 100px;
     height: 100px;
-    border: 1px solid gray;
-    letter-spacing: -1px;
+    border-radius: 50%;
+    background-color: var(--main-color);
     text-align: center;
-    line-height: 100px;
-    border-radius: 50px;
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    cursor: pointer;
-  }
-  .contact-bar:hover {
-    font-weight: 600;
   }
   
   .contact-icons__link {

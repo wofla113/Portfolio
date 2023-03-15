@@ -1,10 +1,11 @@
 @font-face {
-    src: url("../../font/GmarketSansTTFMedium.ttf");
-    font-family: "mainScreen-font";
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-
 main {
-    font-family: "mainScreen-font";
+    font-family: 'S-CoreDream-3Light';
     padding: 160px 30px 60px 30px;
     margin: auto;
     width: 900px;
